@@ -610,8 +610,8 @@ async function deleteRepo() {
     {
       type: "input",
       name: "typedDelete",
-      message: `Type "delete" to confirm deleting ${selected.owner}/${selected.name}:`,
-      validate: (v) => v === "delete" ? true : 'Must type "delete"',
+      message: `Type "del" to confirm deleting ${selected.owner}/${selected.name}:`,
+      validate: (v) => v === "del" ? true : 'Must type "del"',
     },
   ]);
 
