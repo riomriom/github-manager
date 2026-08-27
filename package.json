@@ -1,0 +1,15 @@
+{
+  "name": "github-connect",
+  "version": "1.0.0",
+  "description": "Connect any project to GitHub from your terminal",
+  "main": "app.js",
+  "bin": {
+    "github-connect": "./app.js"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.6"
+  }
+}
